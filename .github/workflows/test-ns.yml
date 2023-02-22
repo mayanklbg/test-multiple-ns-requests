@@ -1,5 +1,6 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is ${{ github.run_id }}
+concurrency: staging_environment
 on:
   workflow_dispatch:
 jobs:
