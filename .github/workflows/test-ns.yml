@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is $(date +'%Y-%m-%dT%H:%M:%S')
+run-name: ${{ github.actor }} is "echo $(date +'%Y-%m-%dT%H:%M:%S')"
 on:
   workflow_dispatch:
 jobs:
